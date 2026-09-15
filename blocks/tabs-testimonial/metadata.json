@@ -1,0 +1,10 @@
+{
+  "variantName": "tabs-testimonial",
+  "baseBlock": "tabs",
+  "visualCharacteristics": "Interactive testimonial switcher: a large active panel showing a person's photo alongside their name, role and quote, with a row of avatar tab buttons (name + role) below that switch the active testimonial.",
+  "contentPattern": "One row per testimonial with two cells: cell 1 is the tab label (avatar image, name, role), cell 2 is the panel content (large photo, name, role, quote).",
+  "usage": "Rotating customer/testimonial quotes selectable via an avatar tab menu.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["tabs-testimonial"]
+}

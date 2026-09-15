@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-collage",
+  "baseBlock": "hero",
+  "visualCharacteristics": "Two-column intro banner on a light background: heading, subheading and two CTA buttons on the left; a collage of three images on the right (one wide image on top, two smaller images below).",
+  "contentPattern": "Row 1: heading + subheading + CTA links. Following rows: images that form the collage.",
+  "usage": "High-impact page intro (hero) pairing a headline and calls-to-action with a cluster of lifestyle images.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["hero-collage"]
+}

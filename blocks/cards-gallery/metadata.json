@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-gallery",
+  "baseBlock": "cards",
+  "visualCharacteristics": "Grid of square, image-only cards (four per row on desktop, two on mobile) with no captions or text. Light/grey section background.",
+  "contentPattern": "One row per image; each row contains a single image cell (no accompanying text).",
+  "usage": "Photo gallery showing a repeating grid of lifestyle images with no captions.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["cards-gallery"]
+}

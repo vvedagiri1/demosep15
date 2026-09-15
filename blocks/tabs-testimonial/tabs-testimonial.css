@@ -1,0 +1,76 @@
+.tabs-testimonial {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tabs-testimonial .tabs-testimonial-panel {
+  order: 1;
+}
+
+.tabs-testimonial .tabs-testimonial-panel[aria-hidden='true'] {
+  display: none;
+}
+
+.tabs-testimonial .tabs-testimonial-panel > div {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+  align-items: center;
+}
+
+.tabs-testimonial .tabs-testimonial-panel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.tabs-testimonial .tabs-testimonial-list {
+  order: 2;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.tabs-testimonial .tabs-testimonial-list button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  padding: 12px;
+  background-color: var(--background-color, #fff);
+  color: initial;
+  text-align: left;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.tabs-testimonial .tabs-testimonial-list button p {
+  margin: 0;
+}
+
+.tabs-testimonial .tabs-testimonial-list button img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.tabs-testimonial .tabs-testimonial-list button[aria-selected='true'] {
+  border-color: currentcolor;
+  cursor: initial;
+}
+
+@media (width >= 900px) {
+  .tabs-testimonial .tabs-testimonial-panel > div {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+
+  .tabs-testimonial .tabs-testimonial-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
