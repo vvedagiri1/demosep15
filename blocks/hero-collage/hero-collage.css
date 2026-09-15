@@ -1,0 +1,45 @@
+.hero-collage {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  align-items: center;
+}
+
+.hero-collage .hero-collage-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-collage .hero-collage-text .button-container,
+.hero-collage .hero-collage-text p.button-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-collage .hero-collage-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.hero-collage .hero-collage-media picture,
+.hero-collage .hero-collage-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.hero-collage .hero-collage-media picture:first-child {
+  grid-column: 1 / -1;
+}
+
+@media (width >= 900px) {
+  .hero-collage {
+    grid-template-columns: 1fr 1fr;
+    gap: 48px;
+  }
+}

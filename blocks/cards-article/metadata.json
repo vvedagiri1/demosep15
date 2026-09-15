@@ -1,0 +1,10 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "visualCharacteristics": "Four-column grid of clickable article cards on a light/grey background; each card has a cover image, a category tag, a date and a title.",
+  "contentPattern": "One row per article; each card cell contains a cover image plus a body with a category tag, date and title, typically wrapped in a link.",
+  "usage": "Latest-articles / blog listing showing a grid of article cards that link to posts.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["cards-article"]
+}

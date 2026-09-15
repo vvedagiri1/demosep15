@@ -1,0 +1,10 @@
+{
+  "variantName": "accordion-faq",
+  "baseBlock": "accordion",
+  "visualCharacteristics": "A vertical list of expandable question/answer items on a white background, each with a toggle (+/arrow) icon that reveals the answer when opened.",
+  "contentPattern": "One row per Q&A pair with two cells: cell 1 is the question label, cell 2 is the answer body.",
+  "usage": "FAQ section with expandable question/answer items.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["accordion-faq"]
+}

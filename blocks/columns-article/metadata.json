@@ -1,0 +1,10 @@
+{
+  "variantName": "columns-article",
+  "baseBlock": "columns",
+  "visualCharacteristics": "Two-column, side-by-side layout on a white background: a large cover image in one column and a text block (breadcrumbs, heading, author name and date/read-time) in the other.",
+  "contentPattern": "One row with two cells: an image cell and a rich-text cell containing breadcrumb links, a heading and author/metadata lines.",
+  "usage": "Featured article / case-study header pairing a cover image with article title and byline.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["columns-article"]
+}

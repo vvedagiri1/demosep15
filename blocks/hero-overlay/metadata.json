@@ -1,0 +1,10 @@
+{
+  "variantName": "hero-overlay",
+  "baseBlock": "hero",
+  "visualCharacteristics": "Full-bleed dark banner: a full-width background image with a dark overlay, containing a large heading, a subheading and a single CTA button, rounded corners.",
+  "contentPattern": "Row 1: background image. Row 2 (or subsequent cell): heading + subheading + CTA link overlaid on the image.",
+  "usage": "Closing call-to-action banner with a background image, headline and CTA.",
+  "canonicalModel": "standalone",
+  "options": [],
+  "memberVariantIds": ["hero-overlay"]
+}
